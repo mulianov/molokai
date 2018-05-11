@@ -209,3 +209,6 @@ if &t_Co > 255
    hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=250 ctermbg=234
 end
+
+hi ColorColumn  ctermbg=232 guibg=#222222j
+
