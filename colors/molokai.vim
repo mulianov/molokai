@@ -210,5 +210,8 @@ if &t_Co > 255
    hi NonText         ctermfg=250 ctermbg=234
 end
 
-hi ColorColumn  ctermbg=232 guibg=#222222j
+hi ColorColumn  ctermbg=232 guibg=#222222
 
+" Buftabline
+hi BufTabLineHidden ctermbg=238 ctermfg=253
+hi BufTabLineCurrent ctermbg=233 ctermfg=118
