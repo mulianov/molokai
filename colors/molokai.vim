@@ -215,3 +215,5 @@ hi ColorColumn  ctermbg=232 guibg=#222222
 " Buftabline
 hi BufTabLineHidden ctermbg=238 ctermfg=253
 hi BufTabLineCurrent ctermbg=233 ctermfg=118
+hi BufTabLineFill ctermbg=238
+hi BufTabLineActive ctermbg=233 ctermfg=253
