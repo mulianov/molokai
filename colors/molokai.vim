@@ -213,10 +213,10 @@ end
 hi ColorColumn  ctermbg=232 guibg=#222222
 
 " Buftabline
-hi BufTabLineHidden ctermbg=238 ctermfg=253
-hi BufTabLineCurrent ctermbg=233 ctermfg=118
-hi BufTabLineFill ctermbg=238
-hi BufTabLineActive ctermbg=233 ctermfg=253
+hi BufTabLineHidden ctermbg=238 ctermfg=253 guibg=#808080 guifg=#dadada
+hi BufTabLineCurrent ctermbg=233 ctermfg=118 guibg=#121212 guifg=#87ff00
+hi BufTabLineFill ctermbg=238 guibg=#808080
+hi BufTabLineActive ctermbg=233 ctermfg=253 guibg=#121212 guifg=#dadada       
 
 " Better Whitespace
 highlight ExtraWhitespace ctermbg=red
