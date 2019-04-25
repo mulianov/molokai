@@ -224,5 +224,5 @@ highlight ExtraWhitespace ctermbg=red
 hi! PreProc guibg=bg guifg=#2ee252 ctermbg=bg ctermfg=41
 hi! PreCondit guibg=bg guifg=#2ee252 ctermbg=bg ctermfg=41
 
-hi! PMenu guibg=#f92672 guifg=#ffffff gui=bold cterm=bold ctermbg=199 ctermfg=15
-hi! PMenuSel guibg=#151515 guifg=#808080 ctermbg=233 ctermfg=244
+hi! PMenuSel guibg=#f92672 guifg=#ffffff gui=bold cterm=bold ctermbg=199 ctermfg=15
+hi! PMenu guibg=#151515 guifg=#808080 ctermbg=233 ctermfg=244
