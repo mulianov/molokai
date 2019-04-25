@@ -220,3 +220,6 @@ hi BufTabLineActive ctermbg=233 ctermfg=253 guibg=#121212 guifg=#dadada
 
 " Better Whitespace
 highlight ExtraWhitespace ctermbg=red
+
+hi! PreProc guibg=bg guifg=#2ee252 ctermbg=bg ctermfg=41
+hi! PreCondit guibg=bg guifg=#2ee252 ctermbg=bg ctermfg=41
