@@ -132,7 +132,7 @@ if &t_Co > 255
    hi String          ctermfg=144
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
-   hi Cursor          ctermfg=16  ctermbg=253
+   hi Cursor          ctermfg=16  ctermbg=253   guibg=reverse 
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
    hi Delimiter       ctermfg=241
@@ -213,7 +213,7 @@ end
 hi ColorColumn  ctermbg=232 guibg=#080808
 
 " Buftabline
-hi BufTabLineHidden ctermbg=238 ctermfg=253 guibg=#808080 guifg=#dadada
+hi BufTabLineHidden ctermbg=238 ctermfg=253 guibg=#505050 guifg=#dadada
 hi BufTabLineCurrent ctermbg=233 ctermfg=118 guibg=#121212 guifg=#87ff00
 hi BufTabLineFill ctermbg=238 guibg=#505050
 hi BufTabLineActive ctermbg=233 ctermfg=253 guibg=#121212 guifg=#dadada       
